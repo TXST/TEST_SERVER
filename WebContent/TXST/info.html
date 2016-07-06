@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Information</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/info.css">
+</head>
+<body>
+	<div class="navbar navbar-inverse">
+		<div class="navbar">
+			<ul class="row">
+				<li class="list-unstyled pull-left col-sm-3"><a href="#"><img
+						src="images/logo.png" alt=""></a></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/welcome.html">首页</a>
+					</h3></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/info.html">个人中心</a>
+					</h3></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/main.html">实时/趋势</a>
+					</h3></li>
+			</ul>
+		</div>
+		<div class="navbar-collapse"></div>
+	</div>
+
+	<section>
+		<nav class="pull-left" id="INFO">
+			<div class="userInfo">
+				<h2>信息</h2>
+			</div>
+			<div class="edit">
+				<h2>设置</h2>
+			</div>
+		</nav>
+
+		<div class="pull-left">
+			<div class="info">
+				<form class="cmxform" id="userInfoForm" method="post" action="">
+					<div class="form-group">
+						<label for="username">用户名：</label> <input type="text"
+							class="form-control" id="username" name="username" readonly/>
+					</div>
+					<div class="form-group">
+						<label for="password">密码：</label> <input type="password"
+							class="form-control" id="password" name="password" readonly/>
+					</div>
+					<div class="form-group">
+						<label for="email">email：</label> <input type="email"
+							class="form-control" id="email" name="email" readonly/>
+					</div>
+					<div class="form-group">
+						<label for="phonenumber">phone：</label> <input type="tel"
+							class="form-control" id="phonenumber" name="phonenumber" readonly/>
+					</div>
+					<input type="button" class="btn btn-success" id="user_edit"
+						value="编辑" />
+						<input type="button" class="btn btn-danger" id="user_submit" value="提交"/>
+				</form>
+			</div>
+		</div>
+		
+		<div class="pull-left">
+			<div class="info">
+				<form class="cmxform" id="valueForm" method="post" action="">
+					<div class="form-group">
+						<label for="tem_threshold">温度阈值：</label> <input type="text"
+							class="form-control" id="tem_threshold" name="tem_threshold" readonly/>
+					</div>
+					<div class="form-group">
+						<label for="hum_threshold">湿度阈值：</label> <input type="text"
+							class="form-control" id="hum_threshold" name="hum_threshold" readonly/>
+					</div>
+					<input type="button" class="btn btn-success" id="value_edit"
+						value="修改" />
+						<input type="button" class="btn btn-danger" id="value_submit" value="提交"/>
+				</form>
+			</div>
+		</div>
+
+	</section>
+	<script src="js/jquery.js"></script>
+	<script src="js/mytools.js"></script>
+	<script src="js/info.js"></script>
+</body>
+</html>

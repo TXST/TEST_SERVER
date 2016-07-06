@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=no" />
+<title>七日趋势</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/tendency.css">
+</head>
+<body>
+	<div class="navbar navbar-inverse">
+		<div class="navbar">
+			<ul class="row">
+				<li class="list-unstyled pull-left col-sm-3"><a href="#"><img
+						src="images/logo.png" alt=""></a></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/welcome.html">首页</a>
+					</h3></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/info.html">个人中心</a>
+					</h3></li>
+				<li class="list-unstyled pull-left col-sm-3"><h3>
+						<a href="/TEST_SERVER/TXST/main.html">实时/趋势</a>
+					</h3></li>
+			</ul>
+		</div>
+		<div class="navbar-collapse"></div>
+	</div>
+	<section>
+		<nav class="pull-left" id="TEND">
+			<div>
+				<h2 class="tem">温度</h2>
+			</div>
+			<div>
+				<h2 class="hum">湿度</h2>
+			</div>
+		</nav>
+		<div class="pull-right" style="position: relative;">
+			<canvas id="zxt" width="600" height="400"></canvas>
+			<input class="form-control" type="date" id="endtime"
+				style="position: absolute; left: 640px; bottom: 100px; width: 150px;">
+		</div>
+	</section>
+	<script src="js/jquery.js"></script>
+	<script src="js/mytools.js"></script>
+	<script src="js/tendency.js"></script>
+</body>
+</html>

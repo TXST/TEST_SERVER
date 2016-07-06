@@ -1,0 +1,12 @@
+<script>
+	
+	var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+	
+	xmlDoc.validateOnParse = "true";
+	
+	xmlDoc.load("test.xml");
+	
+	document.write("reason:"+xmlDoc.parseError.reason+"<br>");
+	document.write("line:"+xmlDoc.parseError.line+"<br>");
+
+</script>

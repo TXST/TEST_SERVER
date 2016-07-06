@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实时数据</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
+</head>
+<body>
+
+    <div class="navbar navbar-inverse">
+        <div class="navbar">
+            <ul class="row">
+                <li class="list-unstyled pull-left col-sm-3"><a href="#"><img src="images/logo.png" alt=""></a></li>
+                <li class="list-unstyled pull-left col-sm-3"><h3><a href="#">首页</a></h3></li>
+                <li class="list-unstyled pull-left col-sm-3"><h3><a href="#">用户</a></h3></li>
+                <li class="list-unstyled pull-left col-sm-3"><h3><a href="#">消息</a></h3></li>
+            </ul>
+        </div>
+        <div class="navbar-collapse"></div>
+    </div>
+
+    <!--<div class="form-group">-->
+        <!--<label class="control-label">日期：</label>-->
+        <!--<input type="button" class="laydate-icon form-control btn"id="createTime" >-->
+    <!--</div>-->
+
+    <div class="container">
+        <div class="pull-left">
+            <h3>Inline DateTimePicker</h3>
+            <input type="text" id="datetimepicker3"/><br><br>
+	<!--  
+	    <input type="button" onclick="$('#datetimepicker3').datetimepicker({value:'2011/12/11 12:00'})" 
+	    value="set inline value 2011/12/11 12:00"/><br><br>
+     -->
+        
+	</div>
+        <h3 class="pull-right"><span>温度</span><span id="JS-wendu">25℃</span></h3>
+        <h3 class="pull-right"><span>湿度</span><span id="JS-shidu">45</span></h3>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.datetimepicker.js"></script>
+    <script src="js/mytools.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

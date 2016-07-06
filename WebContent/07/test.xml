@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TVCHEDULE NAME="CCTV">
+    <CHANNEL CHAN="5">
+        <BANNER>banner</BANNER>
+        <DAY>
+            <DATE>1995</DATE>
+            <PROGRAMLOT VTR="XQX">
+                <TIME>12:00</TIME>
+                <TITLE LANGUAGE="Chinese">title</TITLE>
+                <DESCRIPTION>description</DESCRIPTION>
+            </PROGRAMLOT>
+        </DAY>
+    </CHANNEL>
+</TVCHEDULE>
