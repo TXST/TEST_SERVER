@@ -1,3 +1,4 @@
-!/src
-!/WebContent
-
+/.settings
+/build
+*.jar
+look
