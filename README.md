@@ -1,3 +1,7 @@
 # TEST_SERVER
+
+this project is a part of  
 A Design of Remote Monitoring System Based on Mobile Internet
-this is what
+
+it's my first java web project
+I pushed it here as a commemoration
